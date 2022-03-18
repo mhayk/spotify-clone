@@ -17,7 +17,7 @@ export default {
     },
     pages: {
         homeHTML: 'home/index.html',
-        controlHTML: 'control/index.html',
+        controllerHTML: 'controller/index.html',
     },
     location: {
         home: '/home',

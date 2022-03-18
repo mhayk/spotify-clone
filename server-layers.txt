@@ -1,0 +1,7 @@
+server
+    service = everything about business rules and processing
+    controller = intermediate between view layer and business layer
+    routes = view layer
+    server = it is responsible to create the server(but it does not instance the server)
+    index = instance the server
+    config = all static files in the project

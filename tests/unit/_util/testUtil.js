@@ -38,8 +38,6 @@ export default class TestUtil {
             })
         }
 
-
-
         return {
             values: () => Object.values(data),
             ...data,

@@ -1,0 +1,17 @@
+# Bit Rate must be equal
+$ sox \
+    --i \
+    "audio/songs/conversation.mp3"
+
+$ sox \
+    --i \
+    "audio/fx/Boo! Sound Effect (128 kbps).mp3"
+
+# Convert files to 48000 Hz - Sample Rate
+$ sox \
+    -v 0.99 \
+    -t mp3 \
+    "audio/fx/Applaus.mp3" \
+    -r 48000 \
+    -t mp3 \
+    "audio/fx/Applaus-output.mp3"
